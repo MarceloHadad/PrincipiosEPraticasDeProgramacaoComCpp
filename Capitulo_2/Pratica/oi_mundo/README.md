@@ -1,8 +1,8 @@
 # Prática
 
-1.	Vá para o Apêndice C e siga os passos necessários para iniciar um projeto. Configure um projeto de console C++ vazio, chamado de oi_mundo.
+1. Vá para o Apêndice C e siga os passos necessários para iniciar um projeto. Configure um projeto de console C++ vazio, chamado de oi_mundo.
 
-2.	Digite oi_mundo.cpp, exatamente como especificado abaixo, salve em seu diretório de práticas e inclua em seu projeto oi_mundo.
+2. Digite oi_mundo.cpp, exatamente como especificado abaixo, salve em seu diretório de práticas e inclua em seu projeto oi_mundo.
 ```cpp
     #include "std_lib_facilities.h"
     int main() // O programa C++ inicia executando a função main
@@ -12,9 +12,11 @@
         return 0;
     }
 ```
-    A chamada para keep_window_open() é necessária em algumas máquinas Windows para evitar que elas fechem a janela antes que se possa ler a saída. Esta é uma peculiaridade / característica do Windows, não de C++. Definimos keep_window_open() em std_lib_facilities.h para simplificar a escrita de programas simples de texto.
-    Como você encontra a std_lib_facilites.h? Se você está em um curso, pergunte ao instrutor. Se não, baixe de nosso site de apoio www.stroustrup.com/Programming . Mas, e se você não tem um instrutor nem acesso à Web? Neste caso (e apenas nesse caso), substitua a diretiva #include por:
 
+A chamada para keep_window_open() é necessária em algumas máquinas Windows para evitar que elas fechem a janela antes que se possa ler a saída. Esta é uma peculiaridade / característica do Windows, não de C++. Definimos keep_window_open() em std_lib_facilities.h para simplificar a escrita de programas simples de texto.
+Como você encontra a std_lib_facilites.h? Se você está em um curso, pergunte ao instrutor. Se não, baixe de nosso site de apoio www.stroustrup.com/Programming . Mas, e se você não tem um instrutor nem acesso à Web? Neste caso (e apenas nesse caso), substitua a diretiva #include por:
+
+```cpp
         #include<iostream>
         #include<string>
         #include<vector>
@@ -22,8 +24,8 @@
         #include<cmath>
     using namespace std;
     inline void keep_window_open() { char ch; cin>>ch; }
-
-    Trata-se de um uso direto da biblioteca padrão, o que permitirá que você progrida até o Capítulo 5; o tema será explicado em detalhes mais adiante(§8.7).
+```
+Trata-se de um uso direto da biblioteca padrão, o que permitirá que você progrida até o Capítulo 5; o tema será explicado em detalhes mais adiante(§8.7).
 
 3.	Compile e execute o programa “Oi, Mundo!”. É bem provável que algo não funcione bem. É muito raro ter êxito já na primeira tentativa de usar uma nova linguagem de programação, um novo ambiente de programação. Encontre o problema e o corrija! Este é um ponto onde pedir ajuda a uma pessoa mais experiente é sensato, mas antes, de prosseguir, tenha certeza de que entendeu o que lhe disseram, de modo que você possa fazer sozinho.
 
