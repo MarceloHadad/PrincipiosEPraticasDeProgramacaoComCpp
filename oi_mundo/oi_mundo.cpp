@@ -1,5 +1,5 @@
 #include "std_lib_facilities.h"
-int main() // O programa C++ inicia executando a fun��o main
+int main() // O programa C++ inicia executando a função main
 {
 	cout << "Oi, programação!\n";
 	cout << "Aqui vamos nós!\n";
