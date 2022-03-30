@@ -55,4 +55,7 @@ int main()
 	{
 		cout << "Espero que esteja aproveitando a aposentadoria.";
 	}
+
+	cout << "Atenciosamente\n\n\n";
+	cout << "Marcelo Hadad";
 }
