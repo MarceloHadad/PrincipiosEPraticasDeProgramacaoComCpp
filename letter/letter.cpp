@@ -40,4 +40,19 @@ int main()
 	{
 		simple_error("Você está brincando!\n");
 	}
+
+	else if (idade < 12)
+	{
+		cout << "No próximo ano você terá " << idade + 1 << ".\n";
+	}
+
+	else if (idade == 17)
+	{
+		cout << "No próximo ano você poderá votar.\n";
+	}
+
+	else if (idade > 70)
+	{
+		cout << "Espero que esteja aproveitando a aposentadoria.";
+	}
 }
