@@ -10,5 +10,6 @@ int main()
 	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.\n";
 	cout << "Digite o nome de outro amigo:\n";
 	string nome_amigo;
+	cin >> nome_amigo;
 	cout << "Você viu " << nome_amigo << " recentemente?\n";
 }
