@@ -20,7 +20,7 @@ int main()
 	cin >> idade;
 	
 	//Exibe a carta no final
-	cout << "Prezado(a) " << primeiro_nome << ",\n";
+	cout << "\nPrezado(a) " << primeiro_nome << ",\n";
 	cout << "Como você vai? Eu estou bem.\n";
 	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.\n";
 	cout << "Você viu " << nome_amigo << " recentemente?\n";
