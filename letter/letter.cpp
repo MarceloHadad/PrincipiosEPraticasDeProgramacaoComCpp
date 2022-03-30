@@ -10,17 +10,20 @@ int main()
 	cout << "Digite o nome da pessoa para quem deseja escrever:\n";	
 	cin >> primeiro_nome;
 
-	cout << "Prezado(a) " << primeiro_nome << ",\n";
-	cout << "Como você vai? Eu estou bem.\n";
-	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.\n";
-
 	cout << "Digite o nome de outro amigo:\n";
 	cin >> nome_amigo;
-
-	cout << "Você viu " << nome_amigo << " recentemente?\n";
 	
 	cout << "Digite 'm' se o seu amigo for do sexo masculino e 'f' se for do sexo feminino:\n";
 	cin >> sexo_amigo;
+
+	cout << "Digite a idade do destinatário:\n";
+	cin >> idade;
+	
+	//Exibe a carta no final
+	cout << "Prezado(a) " << primeiro_nome << ",\n";
+	cout << "Como você vai? Eu estou bem.\n";
+	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.\n";
+	cout << "Você viu " << nome_amigo << " recentemente?\n";
 
 	if (sexo_amigo == 'm')
 	{
@@ -31,9 +34,6 @@ int main()
 		cout << "Se você encontrar a " << nome_amigo << " por favor peça a ela para me telefonar.\n";
 	}
 
-	cout << "Digite a idade do destinatário:\n";
-	cin >> idade;
-	
 	cout << "Soube que você fez aniversário há pouco e agora tem " << idade << " anos.\n";
 
 	if (idade <= 0 || idade > 110)
@@ -53,9 +53,9 @@ int main()
 
 	else if (idade > 70)
 	{
-		cout << "Espero que esteja aproveitando a aposentadoria.";
+		cout << "Espero que esteja aproveitando a aposentadoria.\n";
 	}
 
 	cout << "Atenciosamente\n\n\n";
-	cout << "Marcelo Hadad";
+	cout << "Marcelo Hadad\n";
 }
