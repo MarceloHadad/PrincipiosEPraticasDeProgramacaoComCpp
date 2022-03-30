@@ -6,6 +6,6 @@ int main()
 	string primeiro_nome;
 	cin >> primeiro_nome;
 	cout << "Prezado(a) " << primeiro_nome << ",\n";
-	cout << "Como você vai? Eu estou bem.";
-	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.";
+	cout << "Como você vai? Eu estou bem.\n";
+	cout << "Sinto sua falta. Já faz muito tempo que não nos falamos.\n";
 }
