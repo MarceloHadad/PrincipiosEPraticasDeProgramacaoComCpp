@@ -4,3 +4,4 @@ project (PrincipiosEPraticasDeProgramacaoComCpp)
 
 add_subdirectory(oi_mundo)
 add_subdirectory(instructions)
+add_subdirectory(name_and_age)
