@@ -1,0 +1,1 @@
+<p>Execute o programa de "detecção de palavra repetida". Teste-o com a frase "Ela ela riu he he he porque ele não não parecia muito muito bem bem". Quantas palavras repetidas existem? Por quê? Qual é a definição de palavra usada aqui? Qual é a definição de palavra repetida? (Por exemplo, seria "Ela ela" uma repetição?)</p>
