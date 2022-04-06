@@ -2,12 +2,18 @@
 
 int main()
 {
-	int val1 = 0;
-	int val2 = 0;
-	int lowestVal = 0;
-	int highestVal = 0;
-	int sumVal = 0;
-	int diffVal = 0;
+	//int val1 = 0;
+	//int val2 = 0;
+	//int lowestVal = 0;
+	//int highestVal = 0;
+	//int sumVal = 0;
+	//int diffVal = 0;
+	double val1 = 0;
+	double val2 = 0;
+	double lowestVal = 0;
+	double highestVal = 0;
+	double sumVal = 0;
+	double diffVal = 0;
 	double avgVal = 0;
 
 	cout << "Type two numbers:\n";
