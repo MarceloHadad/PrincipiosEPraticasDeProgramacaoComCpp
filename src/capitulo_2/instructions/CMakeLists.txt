@@ -5,8 +5,8 @@ project(instructions)
 add_executable(instructions)
 
 target_include_directories(instructions PRIVATE
-    ${CMAKE_SOURCE_DIR}/lib/)
+    ${lib_path})
 
 target_sources(instructions PRIVATE
     instructions.cpp
-    ${CMAKE_SOURCE_DIR}/lib/std_lib_facilities.h)
+    ${lib_file})
