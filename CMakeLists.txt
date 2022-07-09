@@ -4,6 +4,7 @@ project (PrincipiosEPraticasDeProgramacaoComCpp)
 
 add_subdirectory(oi_mundo)
 add_subdirectory(instructions)
+add_subdirectory(letter)
 add_subdirectory(name_and_age)
 add_subdirectory(floating_point)
 add_subdirectory(repeated_word)
