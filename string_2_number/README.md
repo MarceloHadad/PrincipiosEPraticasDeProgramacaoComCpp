@@ -1,0 +1,3 @@
+<p>
+Escreva um programa que converta números escritos com letras, tais como “zero” e “dois” para dígitos como 0 e 2. Quando o usuário fornecer como entrada um número escrito com letras, o programa deve imprimir o dígito correspondente. Faça isto para os valores 0,1, 2, 3 e 4 e escreva “não é um número que eu conheço” se o usuário digitar algo que não coincida com estes valores, tal como “computador burro!”.
+</p>
