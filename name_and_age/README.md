@@ -1,0 +1,1 @@
+Execute o exemplo "nome e idade". Depois, modifique-o para escrever a idade em meses. Use uma variável do tipo double para a idade, para permitir que as crianças fiquem orgulhosas de ter cinco anos e meio de idade, em vez de apenas 5.
