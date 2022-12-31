@@ -5,8 +5,6 @@ int main()
 	vector<int> nums;
 	int n1 = 0;
 	int n2 = 0;
-	int control = 0;
-	char temp = 0;
 
 	std::cout << "Type two integer numbers:\n";
 
