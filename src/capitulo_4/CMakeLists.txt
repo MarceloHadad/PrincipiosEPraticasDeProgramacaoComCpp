@@ -4,3 +4,4 @@ project(Capitulo4)
 
 add_subdirectory(tente_isto/t1)
 add_subdirectory(tente_isto/t2)
+add_subdirectory(tente_isto/t3)
