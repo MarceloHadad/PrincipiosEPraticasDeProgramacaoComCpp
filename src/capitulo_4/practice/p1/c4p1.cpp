@@ -2,21 +2,23 @@
 
 int main()
 {
-	vector<int> nums(2);
-	int temp = 0;
+	vector<int> nums;
+	int n1 = 0;
+	int n2 = 0;
 	int control = 0;
+	char temp = 0;
 
 	std::cout << "Type two integer numbers:\n";
 
-	while (std::cin >> temp)
+	while (cin >> n1 >> n2)
 	{
-		nums[control] = temp;
-		control++;
+		nums.push_back(n1);
+		nums.push_back(n2);
 	}
 
 	for (int i = 0; i < nums.size(); i++)
 	{
-		std::cout << nums[i] << std::endl;
+		cout << nums[i] << endl;
 	}
 
 	return 0;
