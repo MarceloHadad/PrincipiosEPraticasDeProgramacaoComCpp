@@ -4,6 +4,7 @@ int main()
 {
 	const char firstChar = 'a';
 	const char lastChar = 'z' + 1;
+
 	char currentChar = firstChar;
 	int currentCharNumber = firstChar;
 
