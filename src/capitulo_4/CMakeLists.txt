@@ -10,3 +10,4 @@ add_subdirectory(tente_isto/t5)
 add_subdirectory(tente_isto/t6)
 
 add_subdirectory(practice/p1)
+add_subdirectory(practice/p2)
