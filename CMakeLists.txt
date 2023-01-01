@@ -7,3 +7,4 @@ set(lib_file ${CMAKE_SOURCE_DIR}/include/lib/std_lib_facilities.h)
 
 add_subdirectory(src/capitulo_2)
 add_subdirectory(src/capitulo_3)
+add_subdirectory(src/capitulo_4)
