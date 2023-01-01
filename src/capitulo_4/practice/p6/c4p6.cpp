@@ -3,12 +3,11 @@
 int main()
 {
 	double n1 = 0;
-	double n2 = 0;
 	double greater = 0;
 	double minor = 0;
 	vector<double> nums;
 
-	cout << "Type two numbers:\n";
+	cout << "Type some numbers:\n";
 
 	while (cin >> n1)
 	{
