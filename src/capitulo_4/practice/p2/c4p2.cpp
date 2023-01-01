@@ -2,36 +2,30 @@
 
 int main()
 {
-	vector<int> nums;
 	int n1 = 0;
 	int n2 = 0;
+	int greater = 0;
+	int minor = 0;
 
 	cout << "Type two integer numbers:\n";
 
 	while (cin >> n1 >> n2)
 	{
-		nums.push_back(n1);
-		nums.push_back(n2);
-	}
-
-	int greater = nums[0];
-	int minor = greater;
-
-	for (int i = 0; i < nums.size(); i++)
-	{
-		if (nums[i] > greater)
+		if (n1 > n2)
 		{
-			greater = nums[i];
+			greater = n1;
+			minor = n2;
 		}
 
-		if (nums[i] < minor)
+		else
 		{
-			minor = nums[i];
+			greater = n2;
+			minor = n1;
 		}
-	}
 
-	cout << "The greater number is: " << greater << endl;
-	cout << "The minor number is: " << minor << endl;
+		cout << "The greater number is: " << greater << endl;
+		cout << "The minor number is: " << minor << endl;
+	}
 
 	return 0;
 }
