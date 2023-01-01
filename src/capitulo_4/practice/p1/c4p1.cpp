@@ -2,7 +2,6 @@
 
 int main()
 {
-	vector<int> nums;
 	int n1 = 0;
 	int n2 = 0;
 
@@ -10,13 +9,7 @@ int main()
 
 	while (cin >> n1 >> n2)
 	{
-		nums.push_back(n1);
-		nums.push_back(n2);
-	}
-
-	for (int i = 0; i < nums.size(); i++)
-	{
-		cout << nums[i] << endl;
+		cout << n1 << " " << n2 << endl;
 	}
 
 	return 0;
