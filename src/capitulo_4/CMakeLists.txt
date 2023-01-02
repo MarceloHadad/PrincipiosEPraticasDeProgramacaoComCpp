@@ -20,3 +20,5 @@ add_subdirectory(pratica/p8)
 add_subdirectory(pratica/p9)
 add_subdirectory(pratica/p10)
 add_subdirectory(pratica/p11)
+
+add_subdirectory(exercicios/e2)
