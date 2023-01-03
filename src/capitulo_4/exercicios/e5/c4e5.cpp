@@ -30,6 +30,13 @@ int main()
 		cout << "The multiplication of " << n1 << " by " << n2 << " is " << result;
 		break;
 	case '/':
+
+		if (n2 == 0)
+		{
+			cout << "Cannot divide by zero" << endl;
+			break;
+		}
+
 		result = n1 / n2;
 		cout << "The division of " << n1 << " by " << n2 << " is " << result;
 		break;
