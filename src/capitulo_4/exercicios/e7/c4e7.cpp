@@ -74,11 +74,7 @@ int main()
 			break;
 		}
 
-		else
-		{
-			result = n1 / n2;
-		}
-
+		result = n1 / n2;
 		cout << "The division of " << n1 << " by " << n2 << " is " << result;
 		break;
 	default:
