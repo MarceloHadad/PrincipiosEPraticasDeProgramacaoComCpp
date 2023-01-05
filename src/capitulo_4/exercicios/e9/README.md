@@ -1,0 +1,3 @@
+# Exercícios 9
+
+Tente calcular o número de grãos de arroz que o inventor pediu no exercício 8 acima. Você vai descobrir que o número é tão grande que não vai caber em um int ou um double. Observe o que acontece quando o número se torna grande demais para ser representado exatamente como um int e como um double. Qual é o maior número de quadrados para os quais você pode calcular o número exato de grãos (usando um int)? Qual é o maior número de quadrados para os quais você pode calcular o número aproximado de grãos (usando um double)? Note que você precisa usar muito mais do que 64 quadrados antes de esgotar a capacidade do double fornecer uma resposta aproximada.
