@@ -1,0 +1,3 @@
+# Exercícios 12
+
+Implemente um pequeno jogo de adivinhação chamado (por alguma razão obscura) de "Touros e Vacas". O programa possui um vetor de quatro números inteiros, no intervalo de 0 a 9, e a tarefa do usuário é descobrir quais são estes números atráves de palpites sucessivos. Digamos que os números a adivinhar são **1 2 3 4** e o palpite do usuário é **1 3 5 9**; a resposta deve ser "1 touro e 1 vaca", por que o usuário conseguiu um dígito certo (1) na posição certa (um touro) e um dígito certo (3) mas na posição errada (uma vaca). A adivinhação prossegue até que o usuário consiga os quatro touros, isto é, tenha os quatro dígitos certos na ordem correta.
