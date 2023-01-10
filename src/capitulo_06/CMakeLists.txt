@@ -4,3 +4,5 @@ project(capitulo_06)
 
 add_subdirectory(tente_isto/t02)
 add_subdirectory(tente_isto/t03)
+
+add_subdirectory(pratica/p01)
