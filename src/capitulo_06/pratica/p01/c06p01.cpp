@@ -182,6 +182,10 @@ int main()
 try
 {
     double val = 0;
+
+    cout << "Welcome to our simple calculator." << endl
+        << "Please, enter an expression with point float numbers." << endl;
+
     while (cin) {
         Token t = ts.get();
 
