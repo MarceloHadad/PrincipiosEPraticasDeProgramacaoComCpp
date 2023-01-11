@@ -10,7 +10,7 @@ desse livro.
 4. Acrescente uma linha de saudação em **main()**:
 
     **"Bem-vindo à nossa calculadora simples.**
-    **Por favor, forneça uma empressão usando números em ponto flutuante."**
+    **Por favor, forneça uma expressão usando números em ponto flutuante."**
 
 5. Melhore a saudação, mencionando quais operadores estão disponíveis, como imprimir e como encerrar.
 6. Encontre os três erros de lógica inseridos indevidamente em **calculator-02buggy.cpp** e remova-os, de modo que a calculadora produza resultados corretos.
