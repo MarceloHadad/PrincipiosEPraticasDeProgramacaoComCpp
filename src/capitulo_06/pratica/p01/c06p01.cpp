@@ -186,6 +186,9 @@ try
     cout << "Welcome to our simple calculator." << endl
         << "Please, enter an expression with point float numbers." << endl;
 
+    cout << "Available operators: '+', '-', '*' and '/'" << endl;
+    cout << "To see the result, type '='. To exit, type 'x'" << endl;
+
     while (cin) {
         Token t = ts.get();
 
