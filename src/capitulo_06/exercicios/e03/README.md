@@ -1,0 +1,3 @@
+# Exercícios 3
+
+Acrescente um operador de fatorial: use um operador de sufixo ! para representar "fatorial". Por exemplo, a expressão **7!** significa **7\*6\*5\*4\*3\*2\*1**. Faça com que ! tenha prioridade maior que * e /; isto é **7\*8!** significa **7\*(8!)**, em vez de **(7\*8)!**. Inicie pela modificação da gramática para considerar um operador de mais alto nível. Para concordar com a definição matemática padrão de fatorial, o **0!** é avaliado como **1**. Dica: As funções de calculadora lidam com **doubles**, mas o fatorial é definido somente para **int**s, então somente para **x !** atribua o **x** para um **int** e calcule o fatorial desse **int**.
